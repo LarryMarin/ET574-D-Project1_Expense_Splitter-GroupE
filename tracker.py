@@ -31,11 +31,10 @@
 #avg = total_expenses / outerlist_length
 #we can then use format to print it out to 2 decimal places
 
-#while we go through the loop earlier to get the total expense we can check which if it is the highest expense every time and save it
+#while we go through the loop earlier to get the total expense we can check if the current expense is the highest expense every time and if it is save it.
 #maybe we can use the max() function from lists? if not then we can manually check with an if statement
 
-#lowest expense we can do the opposite of highest expense. check which is the lowest and save it. maybe we can use min() function
-#from lists?
+#lowest expense we can do the opposite of highest expense. check which is the lowest and save it. maybe we can use min() function from lists?
 
 #for equal share we can divide the users input from earlier and divide total with it
 #total_expenses / num_of_people
