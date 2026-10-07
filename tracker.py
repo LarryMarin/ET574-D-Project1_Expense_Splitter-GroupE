@@ -15,6 +15,10 @@
 #ex list = [[1,2,3], [4,5,6]]
 #in the for loop we can check the index for each item in the list [1,2,3] and print them out separately
 
+#to access a 2D Array we need to use a nested for loop
+#first for loop is for going through the outer list indices
+#second for loop is to access the inner list indices
+
 #split_summary function:
 #we ask the user to input the amount of people they want to split all the expenses in the list 
 #this number will be used to divide the total expenses later
