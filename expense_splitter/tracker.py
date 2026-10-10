@@ -13,7 +13,7 @@ import data
 #prints out all current expenses in the list formatted correctly
 def view_all_expenses():
     if data.expense_list == []:
-        print("The list is empty. Please fill the list first.")
+        print("No current expenses. Please add an expense.")
         return
     counter = 1
     for expense in data.expense_list:
@@ -29,7 +29,7 @@ def view_all_expenses():
 
 def split_summary():
     if data.expense_list == []:
-        print("The list is empty. Please fill the list first.")
+        print("No current expenses. Please add an expense.")
         return
     while True:
         try:
