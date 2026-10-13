@@ -6,6 +6,38 @@ import data
 #to validate we can use try-except
 #ask the user to input an amount
 
+def add_expense():
+    
+    name = input("Enter your name: ").strip()
+
+    while not name.replace(" ","").isalpha():
+        print("Invalid input. Please enter your name using letters.")
+        name = input("Enter your name: ").strip()
+
+    description = input("Expense description: ").strip()
+
+    while not description.replace(" ","").isalnum():
+        print("Invalid input. Please enter a description of your expense using letters, numbers and spaces.")
+        description = input("Expense description: ").strip()
+
+    while True:
+        try:
+            expense = float(input("Amount: "))
+
+            if expense <= 0:
+                print("Invalid amount. Please enter an amount greater than 0.")
+            else:
+                break
+
+        except ValueError:
+            print("Invalid amount. Please enter in dollars and cents.")
+
+    data.expense_list.append([name, description, expense])
+
+    print(f"Your ${expense:.2f} {description} has been added successfully {name}!".title())
+        
+add_expense()
+
 #all of this will be appended to a list in data.py
 #we may need to use 2D list for all of this. in a 2D list we can store multiple lists inside. look at list2examples folder for 2D list examples
 

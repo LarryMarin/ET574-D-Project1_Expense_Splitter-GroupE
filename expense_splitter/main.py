@@ -18,12 +18,4 @@ import tracker
 
 #maybe when they press 3 we can clear the list after it is done running?
 
-
-def add_expense():
-    name = input("Enter your name: ")
-    description = input("Expense description: ")
-    expense = float(input("Amount: "))
-    print(f"Your ${expense:.2f} {description} has been added successfully {name}".title())
-        
-add_expense()
     
