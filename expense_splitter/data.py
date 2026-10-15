@@ -1,6 +1,4 @@
-#we will be storing the list in here
-expense_list = []
-
-#user_name = []
-#expense_description = []
-#expense_cost = []
+# Expense details are stored in parallel lists; matching indexes describe one expense.
+user_names = []
+expense_descriptions = []
+expense_costs = []

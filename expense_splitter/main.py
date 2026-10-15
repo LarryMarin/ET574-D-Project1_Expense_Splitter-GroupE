@@ -1,8 +1,3 @@
-#we have to use import so we can access the contents inside those files
-#ex. data.expense_list
-import data
-import tracker
-
 # Student A - Main Menu and Program Flow
 # Expense Splitter Project
 
