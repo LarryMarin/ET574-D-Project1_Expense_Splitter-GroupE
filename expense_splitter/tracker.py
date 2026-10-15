@@ -35,8 +35,7 @@ def add_expense():
     data.expense_list.append([name, description, expense])
 
     print(f"Your ${expense:.2f} {description} has been added successfully {name}!".title())
-        
-add_expense()
+
 
 #all of this will be appended to a list in data.py
 #we may need to use 2D list for all of this. in a 2D list we can store multiple lists inside. look at list2examples folder for 2D list examples
