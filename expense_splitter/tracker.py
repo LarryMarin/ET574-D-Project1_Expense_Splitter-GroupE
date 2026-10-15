@@ -49,8 +49,8 @@ def view_all_expenses():
     counter = 1
     for expense in data.expense_list:
         print(f"Expense {counter}: ")
-        print(f"Name: {expense[0]}")
-        print(f"Expense Description: {expense[1]}")
+        print(f"Name: {expense[0].capitalize()}")
+        print(f"Expense Description: {expense[1].capitalize()}")
         print(f"Expense Amount: ${expense[2]:.2f}", end = '\n\n')
         counter+=1
 
