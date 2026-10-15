@@ -1,5 +1,7 @@
 ID,TYPE,COMMIT #,STATUS,DESCRIPTION,REPORTER,ASSIGNEE,DUE,CREATED,RESOLVED,NOTES
-1,File,7fa715e,Closed,Created issuetracker.csv,,Larry,18-Oct,9-Oct,,
-2,Code,f86641d,Open,Finished Task C Implementation,,Larry,15-Oct,9-Oct,,
+1,File,7fa715e,Closed,Created issuetracker.csv,,Larry,18-Oct,9-Oct,
+2,Code,f86641d,Open,Finished Task C Implementation,,Larry,15-Oct,9-Oct,
 3,code,c36ffe3,open,added the 'add_expense' function, Jazmine, 15-Oct,9-Oct,
 4,code,d6b88d7,open,updated the 'add_expense function, Jazmine,15-OCT,12-Oct
+
+6,Bug,d47222b,closed,Fixed a runtime bug, Larry,14-Oct,15-Oct,
