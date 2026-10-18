@@ -6,6 +6,7 @@ from tracker import add_expense, view_all_expenses, split_summary
 
 def main():
     print("Welcome to Expense Splitter!")
+    print("Please select an option from the menu below.")
 
     while True:
         print("\n1. Add Expense")
