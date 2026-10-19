@@ -1,9 +1,9 @@
 ID,TYPE,COMMIT #,STATUS,DESCRIPTION,REPORTER,ASSIGNEE,DUE,CREATED,RESOLVED,NOTES
 1,File,7fa715e,Closed,Created issuetracker.csv,,Larry,18-Oct,9-Oct,,
-2,Code,f86641d,Open,Finished Task C Implementation,Larry,Larry,15-Oct,9-Oct,,
+2,Code,f86641d,Closed,Finished Task C Implementation,Larry,Larry,15-Oct,9-Oct,,
 3,code,c36ffe3,open,added the 'add_expense' function,Jazmine,Jazmine,15-Oct,9-Oct,12-Oct,
 4,code,d6b88d7,open,updated the 'add_expense function,Jazmine,Jazmine,15-OCT,12-Oct,12-Oct,
-
+5,code,4c1fea8,open,created the main menu for main.py,Dylan,Dylan,15-OCT,14-Oct,14-Oct,
 6,Bug,d47222b,Closed,Fixed a runtime bug,Larry,,18-Oct,14-Oct,15-Oct,
 7,Code,075bdb0,Closed,Tranitioned from 2D lists to parallel lists,Larry,,18-Oct,15-Oct,15-Oct,Used Copiloit to transition from 2D lists to parallel lists.
 8,Edit,6b7cd77,Closed,Fixed the format for issuetracker,Larry,,18-Oct,15-Oct,15-Oct,Fixed formatting for all rows.
